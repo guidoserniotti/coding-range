@@ -1,0 +1,10 @@
+.poo-img {
+	width: 200px;
+	/* This border is set just to identify the limits of the image clearly. */
+	border-width: 2px;
+	border-style: solid;
+	/* In order to center the poo, we need to have control of the whole horizontal space of the image. */
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}

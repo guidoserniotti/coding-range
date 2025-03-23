@@ -1,0 +1,77 @@
+/* In this file were going to make this page look like google's main front page */
+/*  */
+
+/* Add some space (margin) above our image using a div*/
+.main {
+	margin-top: 100px;
+}
+
+/* div that contains the searching buttons */
+.btn-wrapper {
+	/* Center the  div*/
+	display: flex;
+	justify-content: center;
+
+	margin: 30px;
+
+	/* border for making the div visible and perform tests*/
+	/* border: 1px solid black; */
+}
+
+.google-logo {
+	/* Select the img tag and set the width of the Google logo to be 300px. */
+	width: 300px;
+
+	/* Set logo and search bar in top of each other */
+	display: block;
+
+	/* Add some space between the logo and the search field. */
+	/* Method 1: */
+	margin-bottom: 20px;
+
+	/* Centering the logo */
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.search-bar {
+	/* Select the input and make it 500px wide. */
+	width: 500px;
+	/* HEIGHT (input field) != LINE-HEIGHT (text height) */
+	line-height: 24px;
+
+	/* Set logo and search bar in top of each other */
+	display: block;
+
+	/* Add some space between the logo and the search field. */
+	/* Method 2: */
+	/* margin-top: 20px; */
+
+	/* Centering the search bar */
+	margin-left: auto;
+	margin-right: auto;
+
+	/* Add padding */
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 30px;
+	padding-left: 30px;
+	/* Borders */
+	border: 1px solid #dfe1e5;
+	border-radius: 24px;
+}
+
+.btn {
+	/* Style the button according to the provided design.
+    Hint: Use padding, font-size, border-radius, border, and background
+    
+    PS: 
+    The real background is #f8f9fa but it is failing our contrast check. 
+    So here's the background color we will use: #dfe1e5 */
+	padding: 8px 16px;
+	border: none;
+	border-radius: 4px;
+	background-color: #dfe1e5;
+	font-size: 14px;
+	margin: 0px 4px;
+}
