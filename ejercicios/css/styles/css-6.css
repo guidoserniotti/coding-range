@@ -1,5 +1,6 @@
 body {
 	margin: 20px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .guido-avatar {
@@ -9,10 +10,17 @@ body {
 .card {
 	display: flex;
 	width: 500px;
-	margin: 20px auto;
+	margin: 0 auto;
 	padding: 20px;
 	justify-content: space-evenly;
 	text-align: center;
+	color: #2b2839;
+	background: #ddebf8;
+	border-bottom: 2px solid #9883db;
+	border-left: 2px solid #9883db;
+	border-radius: 8px;
+	box-shadow: -10px 10px 20px 0 rgba(0, 0, 0, 0.3);
+	transition: transform 0.3s ease-in-out;
 }
 
 .blue-dotted-border {
