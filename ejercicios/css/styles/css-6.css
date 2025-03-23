@@ -1,0 +1,20 @@
+body {
+	margin: 20px;
+}
+
+.guido-avatar {
+	width: 150px;
+}
+
+.card {
+	display: flex;
+	width: 500px;
+	margin: 20px auto;
+	padding: 20px;
+	justify-content: space-evenly;
+	text-align: center;
+}
+
+.blue-dotted-border {
+	border: 2px dotted rgb(25, 172, 195);
+}
