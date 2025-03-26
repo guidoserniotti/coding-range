@@ -1,12 +1,26 @@
-let firstCard = 11;
-let secondCard = 10;
+let firstCard = 10;
+let secondCard = 11;
 let sum = firstCard + secondCard;
-console.log(`You got the cards: ${firstCard} and ${secondCard}`);
+let hasBlackjack = false;
+let message = '';
+let messageEl = document.getElementById('message-el');
+let cardsEl = document.getElementById('cards-el');
+let sumEl = document.querySelector('#sum-el');
 
-if (sum <= 20) {
-	console.log('Do you want another card? 🤨');
-} else if (sum === 21) {
-	console.log('Congratulations! You got Blackjack. You won! 🥳');
-} else {
-	console.log('You are out of the game. You LOST! 😂☠️');
+function startGame() {
+	cardsEl.textContent += ' ' + firstCard + ', ' + secondCard;
+	sumEl.textContent += ' ' + sum;
+	messageEl.textContent = '';
+	if (sum <= 20) {
+		message = 'Do you want another card?';
+	} else if (sum === 21) {
+		message = 'You got Blackjack. You won!';
+	} else {
+		message = 'You are out of the game.';
+	}
+	messageEl.textContent = message;
+}
+
+function newCard() {
+	console.log('Drawing a new card from the deck!');
 }
