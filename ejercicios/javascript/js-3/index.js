@@ -6,21 +6,21 @@ let resultParagraph = document.getElementById('sum-el');
 
 function add() {
 	resultParagraph.textContent = 'Sum: ';
-	let sum = num1 + num2;
-	resultParagraph.textContent += sum;
+	let result = num1 + num2;
+	resultParagraph.textContent += result;
 }
 function subtract() {
 	resultParagraph.textContent = 'Sum: ';
-	let sub = num1 - num2;
-	resultParagraph.textContent += sub;
+	let result = num1 - num2;
+	resultParagraph.textContent += result;
 }
 function divide() {
 	resultParagraph.textContent = 'Sum: ';
-	let div = num1 / num2;
-	resultParagraph.textContent += div;
+	let result = num1 / num2;
+	resultParagraph.textContent += result;
 }
 function multiply() {
 	resultParagraph.textContent = 'Sum: ';
-	let mul = num1 * num2;
-	resultParagraph.textContent += mul;
+	let result = num1 * num2;
+	resultParagraph.textContent += result;
 }
